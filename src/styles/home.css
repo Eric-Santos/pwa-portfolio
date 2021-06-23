@@ -38,6 +38,11 @@ main .hero .project-link {
   height: 3rem;
   text-decoration: none;
 }
+@media screen and (min-width: 960px) {
+  main .hero .project-link {
+    width: 50vw;
+  }
+}
 main .hero .project-link h4 {
   color: black;
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => {
     setActive(!active);
   }
-  
+
   return (
     <>
       <div className="icon">
