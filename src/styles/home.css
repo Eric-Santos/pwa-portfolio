@@ -1,7 +1,8 @@
 main {
   background-image: url('../bkg-images/rain.webp');
-  background-color: #cccccc;
   /* Used if the image is unavailable */
+  height: 100vh;
+  width: auto;
   background-attachment: fixed;
   background-size: cover;
   background-color: #30d5c8;
@@ -18,7 +19,7 @@ main .hero {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  height: 90vh;
+  height: 100vh;
   margin: 1rem;
 }
 main .hero h1 {

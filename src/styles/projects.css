@@ -1,0 +1,18 @@
+.projects {
+  margin: 1rem;
+}
+.projects .photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.projects .photos img {
+  margin: 1rem 0;
+  width: 85%;
+}
+@media screen and (min-width: 960px) {
+  .projects .photos img {
+    width: 70%;
+  }
+}
