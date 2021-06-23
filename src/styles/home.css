@@ -1,0 +1,17 @@
+main {
+  height: 100vh;
+  background-image: url('../bkg-images/rain.webp');
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+@media screen and (min-width: 960px) {
+  main {
+    background-image: url('../bkg-images/mountains.webp');
+  }
+}

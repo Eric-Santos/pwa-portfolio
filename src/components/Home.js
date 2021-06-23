@@ -1,12 +1,13 @@
 import React from 'react'
+import '../styles/home.css'
 import Navbar from './Navbar'
 
 const Home = () => {
     return (
-        <div>
+        <main>
             <Navbar/>
             <h1>Home</h1>
-        </div>
+        </main>
     )
 }
 export default Home

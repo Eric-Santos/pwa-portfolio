@@ -36,4 +36,5 @@ nav .link {
   flex-flow: column;
   height: 90vh;
   width: 100vw;
+  background-color: aliceblue;
 }
