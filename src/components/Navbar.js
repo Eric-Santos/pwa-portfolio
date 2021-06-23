@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <>
       <div className="icon">
-        <HiMenu size="30" onClick={handleClick}        />
+        <HiMenu size="50" onClick={handleClick} />
       </div>
-      <nav className={active ? 'active' : null}>
+      <nav className={active ? "active" : null}>
         <Link to="/" className="link">
           <h1> Home </h1>
         </Link>

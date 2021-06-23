@@ -1,17 +1,43 @@
 main {
-  height: 100vh;
   background-image: url('../bkg-images/rain.webp');
   background-color: #cccccc;
   /* Used if the image is unavailable */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
+  background-attachment: fixed;
   background-size: cover;
-  /* Resize the background image to cover the entire container */
+  background-color: #30d5c8;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 @media screen and (min-width: 960px) {
   main {
     background-image: url('../bkg-images/mountains.webp');
   }
+}
+main .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 90vh;
+  margin: 1rem;
+}
+main .hero h1 {
+  color: black;
+  font-size: 3.5rem;
+}
+main .hero p {
+  font-size: 1.2rem;
+  color: black;
+}
+main .hero .project-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  background-color: whitesmoke;
+  height: 3rem;
+  text-decoration: none;
+}
+main .hero .project-link h4 {
+  color: black;
 }
