@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/projects.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer.js";
 import { AiFillGithub } from "react-icons/ai";
 import { BiWorld } from "react-icons/bi";
 
@@ -101,6 +102,7 @@ const Projects = () => {
           </div>
         </section>
       </div>
+      
     </>
   );
 };

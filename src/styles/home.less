@@ -1,12 +1,10 @@
 main {
-  @media screen and (min-width:960px){
-  }
   .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    height: 100vh;
+    height: 75vh;
     margin: 1rem;
     h1 {
       color:black;
@@ -15,6 +13,9 @@ main {
     p {
       font-size: 1.2rem;
       color: black;
+      @media screen and (min-width:960px){
+        width: 45vw;
+      }
     }
     .project-link {
       display: flex;

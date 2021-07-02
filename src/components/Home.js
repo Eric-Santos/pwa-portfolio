@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/home.css'
 import { Link } from "react-router-dom";
 import Navbar from './Navbar'
+import Footer from "./Footer";
 
 const Home = () => {
     return (
@@ -9,11 +10,16 @@ const Home = () => {
         <Navbar />
         <div className="hero">
           <h1>Full Stack Developer</h1>
-          <p>MERN Stack Expert</p>
+          <p>
+            A fun-loving skateboarder, I love to travel and learn about new
+            cultures. As an experienced front-end developer and back-end
+            developer, I strive to achieve perfection in everything I do.
+          </p>
           <Link to="projects" className="project-link">
             <h4>View Projects</h4>
           </Link>
         </div>
+        <Footer />
       </main>
     );
 }

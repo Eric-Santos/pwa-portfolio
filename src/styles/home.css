@@ -3,7 +3,7 @@ main .hero {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  height: 100vh;
+  height: 75vh;
   margin: 1rem;
 }
 main .hero h1 {
@@ -13,6 +13,11 @@ main .hero h1 {
 main .hero p {
   font-size: 1.2rem;
   color: black;
+}
+@media screen and (min-width: 960px) {
+  main .hero p {
+    width: 45vw;
+  }
 }
 main .hero .project-link {
   display: flex;

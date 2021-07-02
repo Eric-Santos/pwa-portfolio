@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+@media screen and (min-width: 960px) {
+  section {
+    height: 100vh;
+  }
+}
+section .about-text {
+  width: auto;
+  margin: 1rem;
+}
+@media screen and (min-width: 960px) {
+  section .about-text {
+    width: 50vw;
+  }
+}
