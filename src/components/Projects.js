@@ -7,7 +7,7 @@ import { BiWorld } from "react-icons/bi";
 const Projects = () => {
   return (
     <>
-      <Navbar        />
+      <Navbar />
       <div className="projects">
         <h1>Projects Section</h1>
         <p>
@@ -85,7 +85,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="project">
-            <img src="photos/placeholderFish.webp" alt="placeholder" />
+            <img src="photos/portfolio.webp" alt="code background" />
             <div className="icons">
               <a href="https://github.com/Eric-Santos/pwa-portfolio">
                 <AiFillGithub size="30" />
