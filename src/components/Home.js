@@ -16,7 +16,7 @@ const Home = () => {
             developer, I strive to achieve perfection in everything I do.
           </p>
           <Link to="projects" className="project-link">
-            <h4>View Projects</h4>
+            <h2>View Projects</h2>
           </Link>
         </div>
         <Footer />
