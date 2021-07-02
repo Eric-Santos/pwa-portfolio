@@ -1,16 +1,43 @@
 .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
     margin: 1rem;
+    p {
+        width: 60vw;
+    }
     .photos {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow:row wrap;
-        img {
+        .project {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            p {
+                width: 60vw;
+                margin:1rem auto 5rem auto;
+                border-bottom: 1px solid black;
+            }
+            .mobile {
+                height: 50vh;
+                width: auto;
+            }
+            .icons {
+                a {
+                    color: black;
+                }
+            }
+            img {
             margin: 1rem 0;
             width: 85%;
             @media screen and (min-width:960px){
                 width:70%
             }
+        }
         }
     }
 }

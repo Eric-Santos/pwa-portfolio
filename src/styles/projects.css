@@ -1,5 +1,12 @@
 .projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
   margin: 1rem;
+}
+.projects p {
+  width: 60vw;
 }
 .projects .photos {
   display: flex;
@@ -7,12 +14,30 @@
   align-items: center;
   flex-flow: row wrap;
 }
-.projects .photos img {
+.projects .photos .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.projects .photos .project p {
+  width: 60vw;
+  margin: 1rem auto 5rem auto;
+  border-bottom: 1px solid black;
+}
+.projects .photos .project .mobile {
+  height: 50vh;
+  width: auto;
+}
+.projects .photos .project .icons a {
+  color: black;
+}
+.projects .photos .project img {
   margin: 1rem 0;
   width: 85%;
 }
 @media screen and (min-width: 960px) {
-  .projects .photos img {
+  .projects .photos .project img {
     width: 70%;
   }
 }
