@@ -8,13 +8,13 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <a href='"mailto: eric.santos.dev@gmail.com' alt='email'>
+        <a href="mailto:eric.santos.dev@gmail.com.com">
           <HiOutlineMail size="30" />
         </a>
-        <a href="https://github.com/Eric-Santos" alt='github'>
+        <a href="https://github.com/Eric-Santos" alt="github">
           <GoMarkGithub size="25" />
         </a>
-        <a href="https://www.linkedin.com/in/ericsantos01/" alt='linkedin'>
+        <a href="https://www.linkedin.com/in/ericsantos01/" alt="linkedin">
           <ImLinkedin size="20" />
         </a>
       </footer>
