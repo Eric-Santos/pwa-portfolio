@@ -4,24 +4,12 @@ main .hero {
   align-items: center;
   flex-flow: row wrap;
   height: 80vh;
-  background-image: url('../bkg-images/sunset.webp');
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
 }
 main .hero h1 {
-  color: black;
+  color: #264653;
 }
 main .hero p {
-  color: black;
-}
-@media screen and (min-width: 960px) {
-  main .hero p {
-    width: 45vw;
-  }
+  color: #264653;
 }
 main .hero .btns {
   margin: 1rem;
@@ -35,5 +23,5 @@ main .hero .btns .project-link {
   margin: 1rem;
 }
 main .hero .btns .project-link h2 {
-  color: black;
+  color: #264653;
 }

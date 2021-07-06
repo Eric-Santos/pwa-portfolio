@@ -5,7 +5,11 @@
   flex-flow: column;
   margin: 1rem;
 }
+.projects h1 {
+  color: #264653;
+}
 .projects p {
+  color: #264653;
   width: 60vw;
 }
 .projects .photos {

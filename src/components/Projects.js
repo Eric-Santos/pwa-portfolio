@@ -9,7 +9,7 @@ const Projects = () => {
     <>
       <Navbar />
       <div className="projects">
-        <h1>Projects Section</h1>
+        <h1>Projects</h1>
         <p>
           I have been focusing on Front-End Projects since I finished my
           Full-Stack Development Course at Lambda School, here are some of my
@@ -101,7 +101,6 @@ const Projects = () => {
           </div>
         </section>
       </div>
-      
     </>
   );
 };

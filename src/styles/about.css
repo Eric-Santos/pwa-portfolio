@@ -10,6 +10,7 @@ section {
   }
 }
 section .about-text {
+  color: #264653;
   width: auto;
   margin: 1rem;
 }
