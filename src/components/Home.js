@@ -9,15 +9,18 @@ const Home = () => {
       <main>
         <Navbar />
         <div className="hero">
-          <h1>Full Stack Developer</h1>
-          <p>
-            A fun-loving skateboarder, I love to travel and learn about new
-            cultures. As an experienced front-end developer and back-end
-            developer, I strive to achieve perfection in everything I do.
-          </p>
-          <Link to="projects" className="project-link">
-            <h2>View Projects</h2>
-          </Link>
+          <div className="title">
+            <h1>Eric Santos</h1>
+            <p>Full Stack Developer</p>
+          </div>
+          <div className="btns">
+            <Link to="projects" className="project-link">
+              <h2>View Projects</h2>
+            </Link>
+            <Link to="about" className="project-link">
+              <h2>More About Me</h2>
+            </Link>
+          </div>
         </div>
         <Footer />
       </main>

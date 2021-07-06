@@ -3,34 +3,37 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
-    height: 75vh;
-    margin: 1rem;
+    flex-flow: row wrap;
+    height: 80vh;
+    background-image: url('../bkg-images/sunset.webp');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     h1 {
       color:black;
-      font-size: 3.5rem;
     }
     p {
-      font-size: 1.2rem;
       color: black;
       @media screen and (min-width:960px){
         width: 45vw;
       }
     }
-    .project-link {
+    .btns {
+      margin: 1rem;
+      .project-link {
+      border: 1px solid grey;
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 90vw;
-      background-color: whitesmoke;
-      height: 3rem;
       text-decoration: none;
+      margin: 1rem;
       @media screen and (min-width:960px){
-        width: 50vw;
+        
       }
       h2 {
         color: black;
       }
   }
+    }
   }
 }
