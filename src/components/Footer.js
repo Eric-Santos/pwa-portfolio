@@ -8,13 +8,21 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <a href="mailto:eric.santos.dev@gmail.com.com">
-          <HiOutlineMail size="30" />
+        <a
+          href="mailto:eric.santos.dev@gmail.com.com"
+        >
+          {/* <HiOutlineMail size="30" /> */}
+          eric.santos.dev@gmail.com
         </a>
-        <a href="https://github.com/Eric-Santos" alt="github">
+        <a
+          href="https://github.com/Eric-Santos"
+          alt="github"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <GoMarkGithub size="25" />
         </a>
-        <a href="https://www.linkedin.com/in/ericsantos01/" alt="linkedin">
+        <a href="https://www.linkedin.com/in/ericsantos01/" alt="linkedin" rel="noopener noreferrer" target="_blank">
           <ImLinkedin size="20" />
         </a>
       </footer>
