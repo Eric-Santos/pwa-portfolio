@@ -1,5 +1,4 @@
 import React from "react";
-import { HiOutlineMail } from "react-icons/hi";
 import { GoMarkGithub } from "react-icons/go";
 import { ImLinkedin } from "react-icons/im";
 import { CgProfile } from "react-icons/cg";
@@ -10,7 +9,6 @@ const Footer = () => {
     <>
       <footer>
         <a href="mailto:eric.santos.dev@gmail.com.com">
-          {/* <HiOutlineMail size="30" /> */}
           eric.santos.dev@gmail.com
         </a>
         <a

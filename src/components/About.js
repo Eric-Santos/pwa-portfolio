@@ -13,7 +13,8 @@ const About = () => {
         skateboarded for around 15 years and in 4 different countries. I decided
         to transition into Computer Software because I found that programming
         and other design careers match my personality. Let me know how I can help you. Thank you!
-      </h1>
+        </h1>
+        <iframe src="/photos/EricSantosCertificateOfCompletion.pdf" frameBorder="0" title='EricSantosCertificate'></iframe>
       <Footer  />
     </section></>
   );
